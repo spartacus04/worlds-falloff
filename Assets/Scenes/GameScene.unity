@@ -1249,8 +1249,11 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 7371848917482630068, guid: a62c1c49cf9b4684f877fdb900dd8c78, type: 3}
       propertyPath: m_text
-      value: left click with your mouse to shoot your weapon. your weapon doesn't
+      value: 'left click with your mouse to shoot your weapon. your weapon doesn''t
         need ammo but it needs to reload. press q to drop your weapon.
+
+        Remember
+        to press P to pause the game.'
       objectReference: {fileID: 0}
     - target: {fileID: 7371848917482630068, guid: a62c1c49cf9b4684f877fdb900dd8c78, type: 3}
       propertyPath: m_VerticalAlignment
@@ -4080,6 +4083,7 @@ MonoBehaviour:
   deadSelf: {fileID: 7450054397496199275, guid: 0af71e40559c14c45aacea839ae93920, type: 3}
   music: {fileID: 519420030}
   sfx: {fileID: 8300000, guid: b486d3917db741c47aed8048117691a3, type: 3}
+  loreCollected: 0
   images:
   - {fileID: 2096586739}
   - {fileID: 1688196738}
