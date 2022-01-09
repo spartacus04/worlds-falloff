@@ -1,0 +1,27 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: a1bbc41ecc14f6e4aaec0274a4b07bf3, type: 3}
+  m_Name: The classic
+  m_EditorClassIdentifier: 
+  name: The classic
+  artwork: {fileID: 21300000, guid: cb8118efefc803546a405faab16d4a21, type: 3}
+  weaponInHand: {fileID: 21300000, guid: 95772c7458a4893478a2a35b3cdbf639, type: 3}
+  bullet: {fileID: 8453191624345022025, guid: c7c5a0a4043b4b1428d089b796e95cea, type: 3}
+  bulletSpeed: 50
+  damagePerBullet: 30
+  reloadTime: 3
+  bulletsPerCharger: 1
+  bullets: 1
+  shootSound: {fileID: 8300000, guid: 0634a6e33de23a1498b9c786aed4b2e3, type: 3}
+  isReloading: 0
+  fireRate: 0.5
+  nextFire: 0

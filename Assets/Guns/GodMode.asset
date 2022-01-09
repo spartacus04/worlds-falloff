@@ -1,0 +1,26 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: a1bbc41ecc14f6e4aaec0274a4b07bf3, type: 3}
+  m_Name: GodMode
+  m_EditorClassIdentifier: 
+  name: God
+  artwork: {fileID: 0}
+  weaponInHand: {fileID: 0}
+  bullet: {fileID: 8453191624345022025, guid: c7c5a0a4043b4b1428d089b796e95cea, type: 3}
+  bulletSpeed: 100
+  damagePerBullet: 200
+  reloadTime: 0
+  bulletsPerCharger: 100000
+  bullets: 100000
+  isReloading: 0
+  fireRate: 0
+  nextFire: 0
